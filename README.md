@@ -185,8 +185,8 @@ REACT_APP_EMAILJS_USER_ID=your_user_id
 ## 📞 Support
 
 For support or questions:
-- Email: your-email@example.com
-- Phone: +1 (555) 123-4567
+- Email: info@propertyplug.com
+- Phone: +91 7432854909
 
 ## 📄 License
 
