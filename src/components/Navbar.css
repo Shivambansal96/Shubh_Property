@@ -2,21 +2,24 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  /* background: rgba(255, 255, 255, 0.95); */
+  background: transparent;
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #e2e8f0;
+  /* border-bottom: 1px solid #e2e8f0; */
   z-index: 1000;
   transition: all 0.3s ease;
 }
 
 .navbar-container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
+  /* padding: 0 345px; */
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  /* border: solid 2px red; */
 }
 
 .navbar-logo {
@@ -25,9 +28,17 @@
   gap: 0.5rem;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1e293b;
+  /* color: #1e293b; */
   text-decoration: none;
   transition: color 0.2s ease;
+}
+
+.contact-item span, .navbar-logo, .nav-links {
+  color: white;
+  font-style: italic;
+  opacity: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .navbar-logo:hover {
@@ -48,7 +59,7 @@
 }
 
 .nav-links {
-  color: #64748b;
+  /* color: #64748b; */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
