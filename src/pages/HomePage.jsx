@@ -156,13 +156,14 @@ const HomePage = () => {
     </div>
 
     <div className="hero-actions">
-      <button className="btn btn-primary btn-large">
+      <button className="btn btn-primary btn-large"
+      onClick={() => window.scrollTo({ top: document.body.scrollHeight / 2, behavior: 'smooth' })}
+      >
         <Search size={20} />
         Explore Properties
       </button>
       <button
         className="btn btn-secondary btn-large"
-        onClick={() => window.scrollTo({ top: document.body.scrollHeight / 2, behavior: 'smooth' })}
       >
         <Play size={20} />
         Watch Video

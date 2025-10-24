@@ -34,9 +34,9 @@
 }
 
 .contact-item span, .navbar-logo, .nav-links {
-  color: white;
+  color: gray;
   font-style: italic;
-  opacity: 50%;
+  /* opacity: 50%; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
@@ -68,6 +68,7 @@
 
 .nav-links:hover {
   color: #3b82f6;
+  opacity: 100%;
 }
 
 .nav-links::after {

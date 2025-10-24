@@ -195,7 +195,7 @@ const ContactForm = () => {
               />
             </div>
 
-            <button 
+            <button  onClick={()=> {alert("Details Sent")}}
               type="submit" 
               className="submit-button"
               disabled={isSubmitting}
