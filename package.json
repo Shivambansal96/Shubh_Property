@@ -4,14 +4,14 @@
   "description": "Professional property selling website",
   "homepage": ".",
   "main": "index.js",
-
   "scripts": {
-  "start": "react-scripts start",
-  "build": "set CI=false && node node_modules/react-scripts/bin/react-scripts.js build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "start": "react-scripts start",
+    "build": "set CI=false && node node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "emailjs-com": "^3.2.0",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",

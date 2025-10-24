@@ -7,7 +7,7 @@ import { properties } from '../data/properties';
 import './ContactForm.css';
 
 // ----- FORM SPREE ------
-import { useForm, ValidationError } from '@formspree/react';
+// import { useForm, ValidationError } from '@formspree/react';
 // ----- FORM SPREE ------
 
 const ContactForm = () => {
