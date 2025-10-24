@@ -2,7 +2,8 @@
 
 A modern, responsive React.js website for selling properties with advanced search, filtering, and email integration features.
 
-# Live Demo [https://sbpropertyplug.vercel.app/]
+# Live Demo [/]
+👋[Click Me](https://sbpropertyplug.vercel.app) - Website is Live ✨
 
 
 ## 🚀 Features
