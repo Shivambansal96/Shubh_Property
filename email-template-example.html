@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Property Inquiry Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        .content {
+            background: #f8fafc;
+            padding: 30px;
+            border: 1px solid #e2e8f0;
+        }
+        .property-info {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #3b82f6;
+        }
+        .contact-details {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .message-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #e2e8f0;
+        }
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 8px 8px;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .label {
+            font-weight: bold;
+            color: #374151;
+        }
+        .value {
+            color: #64748b;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏠 New Property Inquiry</h1>
+        <p>Property Plug - Professional Real Estate Services</p>
+    </div>
+    
+    <div class="content">
+        <h2>Property Details</h2>
+        <div class="property-info">
+            <p><span class="label">Property:</span> <span class="value">{{property_name}}</span></p>
+        </div>
+        
+        <h2>Contact Information</h2>
+        <div class="contact-details">
+            <p><span class="label">Name:</span> <span class="value">{{from_name}}</span></p>
+            <p><span class="label">Email:</span> <span class="value">{{from_email}}</span></p>
+            <p><span class="label">Phone:</span> <span class="value">{{phone}}</span></p>
+        </div>
+        
+        <h2>Message</h2>
+        <div class="message-box">
+            <p>{{message}}</p>
+        </div>
+        
+        <p><strong>Next Steps:</strong></p>
+        <ul>
+            <li>Contact the client within 2-4 hours</li>
+            <li>Schedule a property viewing if requested</li>
+            <li>Provide additional property information</li>
+            <li>Follow up with market analysis</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p>This inquiry was sent from the Property Plug website</p>
+        <p>Reply to: {{from_email}}</p>
+    </div>
+</body>
+</html>
