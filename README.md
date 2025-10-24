@@ -2,6 +2,8 @@
 
 A modern, responsive React.js website for selling properties with advanced search, filtering, and email integration features.
 
+# 👋[Click Me](https://sbpropertyplug.vercel.app) - Website is Live ✨
+
 ## 🚀 Features
 
 - **Modern UI/UX**: Clean, professional design with smooth animations
@@ -183,8 +185,8 @@ REACT_APP_EMAILJS_USER_ID=your_user_id
 ## 📞 Support
 
 For support or questions:
-- Email: your-email@example.com
-- Phone: +1 (555) 123-4567
+- Email: info@propertyplug.com
+- Phone: +91 7432854909
 
 ## 📄 License
 
